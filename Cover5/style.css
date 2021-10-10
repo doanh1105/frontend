@@ -14,6 +14,7 @@
     display: flex;
 }
 .left{
+    
     outline:  2px rgb(82, 252, 238) ;
     /* border: 2px none silver; */
     padding: 30px 25px 30px 25px;
@@ -23,18 +24,25 @@
     background-color: aqua;
 }
 .left header{
+    
     margin-top: 60%;
     width: 100%;
     height: 100px;
 }
 .left h3{
+
+    font-family: 'Roboto', sans-serif;
     font-size: 45px;
     height: 50%;
 }
 .left span{
+    height: 30%;
+    font-family: 'Roboto', sans-serif;
     font-size: 40px;
+    line-height: 200%;
 }
 .button button{
+    font-family: 'Roboto', sans-serif;
     margin-top: 250px;
     height: 60px;
     width: 100%;
@@ -48,11 +56,12 @@
 }
 
 .sign-up {
+    font-family: 'Roboto', sans-serif;
     margin-top: 40px;
     text-decoration: none;
     width: 100%;
     height: 30px;
-    font-size: 17px;
+    font-size: 10px;
 }
 
 
@@ -138,6 +147,7 @@
     border: 1px none silver;
     outline: none;
     cursor: pointer;
+    margin-top: 5px;
 }
 .tich2{
     width: 30px;
@@ -168,6 +178,7 @@
 
 /* ------------------------------------------------------ */
 .right{
+    font-family: 'Roboto', sans-serif;
     padding: 30px 25px 30px 25px;
     margin-left: 25px;
     width: 34%;
@@ -185,12 +196,13 @@
     height: 100%;
 }
 .text-right{
+    font-family: 'Roboto', sans-serif;
     margin-top: 35px;
     text-align: center;
     color: white;
-    font-size: 17px;
 }
 .nut{
+    font-family: 'Roboto', sans-serif;
     display: flex;
     width: 100%;
     height: 90px;
