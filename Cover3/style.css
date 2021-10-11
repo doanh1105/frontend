@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@449&family=Roboto:wght@500&family=Source+Sans+Pro:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +17,7 @@
 .nen{
     /* position: relative; */
     margin: auto;
-    width: 1000px;
+    width: 800px;
     height: 800px;
     /* padding: 20px 30px 20px 30px; */
     /* background: yellowgreen; */
@@ -24,15 +26,14 @@
 .sign-up{
     
     padding: 25px 20px 25px 20px;
-    width: 500px;
-    height: 770px;
+    width: 390px;
+    height: 750px;
     background-color: white;
     border-radius: 15px;
 }
 .login{
-    
     padding: 25px 20px 25px 20px;
-    width: 500px;
+    width: 390px;
     height: 700px;
     background-color: white;
     border-radius: 15px;
@@ -43,32 +44,36 @@
     
 }
 h3{
+    font-weight: 500;
     font-size: 30px;
     line-height: 25px;
     color: rgb(75, 74, 72);
+    font-weight: 14px;
 }
 .exit1{
-    margin-left: 295px;
+    margin-left: 205px;
     width: 30px;
     height: 30px;
     
 }
 .exit2{
-    margin-left: 315px;
+    margin-left: 225px;
     width: 30px;
     height: 30px;
 }
 .btn {
+    font-family: 'Inter', sans-serif;
     /* display: block; */
     margin: 30px auto;
     min-width: 100%;
     height: 50px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     color: rgb(75, 74, 72);
     border-radius: 10px;
     border: 2px solid silver;
     cursor: pointer;
+    
 }
 .btn span{
     color: rgb(170, 164, 164);
@@ -76,10 +81,8 @@ h3{
 }
 
 .input-form ,form{
-   
     width: 100%;
     height: 36%;
-    
 }
 .input-form input{
     width: 100%;
@@ -97,8 +100,9 @@ h4{
     font-size: 20px;
     font-weight: 500;
 }
-input:hover{
+.input:hover{
     border: 1px solid rgb(63, 149, 206);
+    box-shadow: .5px .5px 3px rgb(61, 177, 216);
 }
 
 .gach{
@@ -114,29 +118,9 @@ input:hover{
     border: 1px none silver;
     color: gray;
     width: 24%;
-    height: 10px;
+    height: 5px;
 }
-.hr2{
-    border-radius: 5px;
-    border: 1px none silver;
-    color: gray;
-    width: 24%;
-    height: 10px;
-}
-.hr3{
-    border-radius: 5px;
-    border: 1px none silver;
-    color: gray;
-    width: 24%;
-    height: 10px;
-}
-.hr4{
-    border-radius: 5px;
-    border: 1px none silver;
-    color: gray;
-    width: 24%;
-    height: 10px;
-}
+
 .check-box{
     display: flex;
     align-items: center;
@@ -151,7 +135,7 @@ input:hover{
     width: 20px;
 }
 .text-check{
-    
+    padding-left: 2%;
     padding-bottom: 9px;
    font-size: 20px;
    color:  rgb(75, 74, 72);
@@ -172,7 +156,7 @@ input:hover{
    font-size: 20px;
     border: 1px none silver;
     cursor: pointer;
-    box-shadow: 1.5px 2px rgb(109, 160, 236);
+    box-shadow: 1.5px 2px 4px rgb(90, 174, 212);
 }
 .end{
     text-align: center;
@@ -180,19 +164,21 @@ input:hover{
     font-size: 20px;
 }
 .end p{
-    color:  rgb(75, 74, 72);
+    font-family: 'Inter', sans-serif;
+    color:  rgb(112, 112, 112);
     font-weight: 500;
 }
 .end a{
     text-decoration: none;
     color: blue;
-    font-weight: 500;
+    font-weight: 600;
 }
 .input-form1 ,form{
     padding-top: 15px;
     /* position: relative; */
     width: 100%;
     height: 39%;
+    margin-top: px;
 }
 .input-form1 input{
     width: 100%;
@@ -219,16 +205,18 @@ input:hover{
     letter-spacing: 1px;
 }
 .btn-login button{
+    font-family: 'Inter', sans-serif;
     margin-top: 10px;
     width: 100%;
     height: 50px;
    background-color: blue;
    color: aliceblue;
    border-radius: 10px;
-   font-size: 20px;
+   font-size: 17px;
     border: 1px none rgb(219, 216, 216);
     cursor: pointer;
-    box-shadow: 1.5px 2px rgb(109, 160, 236);
+    box-shadow: 1.5px 2px 4px rgb(109, 160, 236);
+    font-weight: 500;
 }
 .forget{
     text-align: center;
@@ -236,4 +224,8 @@ input:hover{
     font-size: 21px;
     font-weight: 500;
 
+}
+.input1:hover{
+    border: 1px solid rgb(63, 149, 206);
+    box-shadow: .5px .5px 3px rgb(61, 177, 216);
 }
